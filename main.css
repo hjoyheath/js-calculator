@@ -1,0 +1,92 @@
+body {
+  justify-content: center;
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+* @see https://css-tricks.com/box-sizing/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  background: linear-gradient(to top left, rgb(186, 138, 67), aqua); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  
+}
+
+.calculator {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 500px;
+  min-height: 700px;
+  box-shadow: 3px 5px 20px #a2c988;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #1d2816;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.row--display-result {
+  background-color: #c688c9;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+  font-weight: bolder;
+  background-color: rgb(240, 235, 235);
+  color: black;
+  box-shadow: 3px 5px 20px #a2c988;
+}
+
+.button:hover {
+  background-color: rgb(184, 240, 190);
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  min-height: 1rem;
+  width: 25%;
+  background-color: #d70f4f;
+  border: solid 1px silver;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px 15px black;
+  text-shadow: 0 2px 5px black;
+  font-size: large;
+}
+
+

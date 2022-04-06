@@ -1,0 +1,22 @@
+{
+  "name": "js-caculator-part-1-hjoyheath",
+  "version": "1.0.0",
+  "description": "## Directions",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Momentum-Team-12/js-caculator-part-1-hjoyheath.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Momentum-Team-12/js-caculator-part-1-hjoyheath/issues"
+  },
+  "homepage": "https://github.com/Momentum-Team-12/js-caculator-part-1-hjoyheath#readme",
+  "dependencies": {
+    "mathjs": "^10.4.2"
+  }
+}
